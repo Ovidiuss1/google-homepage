@@ -4,25 +4,73 @@ img{
 }
 
 
-
-#gmail{
+#gmaill{
 	text-align: right;
 	margin-top: 5px;
-	position: relative;
-	bottom: 410px;
-	right: 150px;
+	position: absolute;
+	top:15px;
+	bottom: 403px;
+	right: 170px;
 	font-size: 15px;
+	display: inline;
+	color: black;
+	
 	
 }
-
+#gmaill a{
+	text-decoration: none;
+}
 #imagini{
-	text-align: right;
+	top: 15px;
 	margin-top: 5px;
-	position: relative;
-	bottom: 442px;
-	right: 85px;
+	position: absolute;
+	bottom: 435px;
+	right: 110px;
 	font-size: 15px;
+	color: black;
+	display: inline;
+
+
+
+}
+#imagini a{
+	text-decoration: none;
+}
+#imagini a:visited{
+	color:black;
+}
+#gmaill a:visited{
+	color: black;
+}
+#connect{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+
+
 	
+	}
+button{
+	background-color: #4285f4;
+	border: solid;
+	border-color:  #4285f4;
+	color:white;
+	font-weight: bold;
+	border-radius: 2px;
+	height: 35px;
 
+}
+#ro{
+	color: #4285f4;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	left: 150px;
+	top:-185px;
+}
 
+#sb textarea{
+	width: 500px;
+	height: 50px;
+	
 }
