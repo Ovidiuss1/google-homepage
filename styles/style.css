@@ -1,56 +1,31 @@
-img{
-	display: block;
-	margin: 0 auto;
-}
-
-
-#gmaill{
-	text-align: right;
-	margin-top: 5px;
-	position: absolute;
-	top:15px;
-	bottom: 403px;
-	right: 170px;
-	font-size: 15px;
-	display: inline;
-	color: black;
-	
-	
-}
-#gmaill a{
-	text-decoration: none;
-}
-#imagini{
-	top: 15px;
-	margin-top: 5px;
-	position: absolute;
-	bottom: 435px;
-	right: 110px;
-	font-size: 15px;
-	color: black;
-	display: inline;
-
-
-
-}
-#imagini a{
-	text-decoration: none;
-}
-#imagini a:visited{
-	color:black;
-}
-#gmaill a:visited{
-	color: black;
-}
-#connect{
-	position: absolute;
-	top: 10px;
-	right: 5px;
-
-
-	
+#wraper{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1611px;
 	}
-button{
+
+#wrapper {
+	height: 80px;
+	margin:5px;
+	padding: 5px;
+
+	
+
+
+
+   
+}
+#images , #gmail, #connect{
+	float:right;
+	margin:5px;
+	padding: 5px;
+}
+#app{
+	float:right;
+	margin:3px;
+	padding: 5px;
+}
+#wrapper button{
 	background-color: #4285f4;
 	border: solid;
 	border-color:  #4285f4;
@@ -60,17 +35,111 @@ button{
 	height: 35px;
 
 }
-#ro{
-	color: #4285f4;
-	font-size: 20px;
-	position: relative;
-	text-align: center;
-	left: 150px;
-	top:-185px;
+#connect{
+	float:right;
+	margin:3px;
+	padding: 0;
 }
 
-#sb textarea{
-	width: 500px;
-	height: 50px;
+#mid{
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 150px;
+	width: 50%;
 	
+
+}
+#gog img {
+	margin:auto;
+	margin-top: 10%;
+	
+	display: block;
+	
+}
+
+#gog{
+	height: 150px;
+	position: relative;
+}
+
+    
+
+#ro{
+	//border:1px solid black;
+	text-align: center;
+	width: 80px;
+	bottom: 17%;
+	left: 63%;
+	position: absolute;
+	color: #4285f4;
+	font: 20px arial;
+
+	
+
+
+	
+}
+#ro p{
+	padding: 1px;
+	margin: 1px;
+	
+}
+#srch input{
+
+	width: 696px;
+	height: 28px;
+	border: 1px solid #4285f4;
+}
+#srch{
+	
+	position: relative;
+	bottom: -30%;
+	width: 700px;
+	left: 12%;
+}
+
+
+
+
+
+
+
+
+#bbar{
+	height: 40px;
+	clear:both;
+	background-color: #e6e6e6;
+	
+	position: absolute;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+
+}
+#pub ,#companii, #despre{
+	margin:5px;
+	padding: 5px;
+	float: left;
+}
+#conf , #terms , #set{
+	margin:5px;
+	padding: 5px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    margin: 0;
+    height: 100%;
 }
