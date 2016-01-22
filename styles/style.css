@@ -2,12 +2,15 @@
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 1611px;
+
 	}
 
 #wrapper {
 	height: 80px;
 	margin:5px;
 	padding: 5px;
+	font-size: 14px;
+
 
 	
 
@@ -19,6 +22,9 @@
 	float:right;
 	margin:5px;
 	padding: 5px;
+	font-family: arial,sans-serif;
+	
+
 }
 #app{
 	float:right;
@@ -39,6 +45,11 @@
 	float:right;
 	margin:3px;
 	padding: 0;
+}
+#wrapper a{
+	text-decoration: none;
+	color: #000;
+
 }
 
 #mid{
@@ -94,12 +105,57 @@
 	
 	position: relative;
 	bottom: -30%;
-	width: 700px;
+	min-width: 700px;
 	left: 12%;
+	margin: 0px;
 }
 
 
+#cg button{
 
+	background-color: #f2f2f2;
+	border: solid;
+	border-color: #f2f2f2;
+	color:#737373;
+	font-weight: bold;
+	border-radius: 2px;
+	height: 35px;
+	font-family: arial,sans-serif;
+
+}
+#lucky button{
+
+	background-color: #f2f2f2;
+	border: solid;
+	border-color:  #f2f2f2;
+	color:#737373;
+	font-weight: bold;
+	border-radius: 2px;
+	height: 35px;
+	font-family: arial,sans-serif;
+	
+
+
+}
+
+#lucky{
+	left: 380px;
+	position: absolute;
+	overflow-x:hidden; 
+	overflow-y: hidden;
+
+}
+#cg{
+	position: relative;
+	left: 200px;
+	top:35px;
+
+}
+#lucky a{
+	text-decoration: none;
+	color: #737373;
+
+}
 
 
 
@@ -109,12 +165,14 @@
 	height: 40px;
 	clear:both;
 	background-color: #e6e6e6;
-	
+	min-width: 1611px;
 	position: absolute;
     z-index: 100; 
     bottom: 0; 
     left: 0;
     width: 100%;
+    font-family: arial,sans-serif;
+    font-size: 14px;
 
 }
 #pub ,#companii, #despre{
@@ -128,7 +186,10 @@
 	float: right;
 }
 
-
+#bbar a{
+	text-decoration: none;
+	color: #666;
+}
 
 
 
